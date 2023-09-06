@@ -12,7 +12,7 @@ Lesson that consisted on explaining firebase and the Firestore.
 
 Lesson that consisted on explaining Firebase Authentication.
 
-### auth
+### backend
 
 Lesson that consisted on explaining Firebase Cloud Functions.
 
