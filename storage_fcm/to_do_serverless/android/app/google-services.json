@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "150039612230",
+    "project_id": "to-do-serverless-2023",
+    "storage_bucket": "to-do-serverless-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150039612230:android:a42057cdd377c540f57347",
+        "android_client_info": {
+          "package_name": "com.example.to_do_serverless"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150039612230-kchkmdrj6l6rmts7s3r0b8l89aoa5gl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM5PYMwXC_QhID3C6wRfGBSMl7v-yCzR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150039612230-kchkmdrj6l6rmts7s3r0b8l89aoa5gl2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
