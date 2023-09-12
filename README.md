@@ -16,5 +16,9 @@ Lesson that consisted on explaining Firebase Authentication.
 
 Lesson that consisted on explaining Firebase Cloud Functions.
 
+### storage_fcm
+
+Lesson that consisted on explaining Firebase Storage and Firebase Cloud Messaging.
+
 
 

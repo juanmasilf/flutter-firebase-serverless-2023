@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:to_do_serverless/auth/logic/firebase_auth_service.dart';
 import 'package:to_do_serverless/auth/screen/sign_up_screen.dart';
+import 'package:to_do_serverless/messaging/logic/messaging_service.dart';
 import 'package:to_do_serverless/to_do_list/screens/to_do_list_screen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -95,10 +96,11 @@ class _LoginScreenState extends State<LoginScreen> {
 
   void _login(BuildContext context) async {
     try {
-      await FirebaseAuthService.logIn(
+      final user = await FirebaseAuthService.logIn(
         email: _emailController.text,
         password: _passwordController.text,
       );
+     await  MessagingService.getNotificationToken(user!.uid);
       // Navigate to the to do list screen
       Navigator.pushReplacement(
         context,

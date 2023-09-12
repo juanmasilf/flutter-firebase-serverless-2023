@@ -2,12 +2,14 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:to_do_serverless/auth/screen/login_screen.dart';
 import 'package:to_do_serverless/firebase_options.dart';
+import 'package:to_do_serverless/messaging/logic/messaging_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  await MessagingService.initialize();
   runApp(const MyApp());
 }
 
